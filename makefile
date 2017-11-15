@@ -7,4 +7,4 @@ OBJ = main2.o multvec.o addvec.o
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 main2: $(OBJ)
-	gcc -o $@ $^ $(CFLAGS)
+	gcc -Wall -g -o $@ $^ $(CFLAGS)
